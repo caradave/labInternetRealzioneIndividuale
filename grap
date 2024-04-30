@@ -1,0 +1,7 @@
+set xlabel "time (s)"
+set ylabel "port no."
+
+set term png;
+set output "output.png"
+
+plot "misura.dat" using 1:2 title "UDP nmap scan 1-100"
